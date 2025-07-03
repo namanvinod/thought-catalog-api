@@ -1,8 +1,6 @@
+import { TagResponseModel, ThoughtResponseModel } from "./APIModels";
 import { BaseProps, ThoughtBaseModel } from "./BaseModels";
 
-export type TagDBModel = {
-  id: number;
-  name: string;
-} & BaseProps;
+export type TagDBModel = TagResponseModel;
 
-export type ThoughtDBModel = ThoughtBaseModel & BaseProps;
+export type ThoughtDBModel = ThoughtResponseModel;

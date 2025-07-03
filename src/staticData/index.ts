@@ -49,7 +49,7 @@ export const thoughts: ThoughtResponseModel[] = [
     dateCreated: new Date(),
   },
   {
-    id: 2,
+    id: 3,
     description: `Velocity is your speed in a certain direction. Being in the right direction( or path) is more important than speed. 
 Small but Persistent activity in the right direction is more useful than larger efforts towards every direction.`,
     title: `Focus on velocity. Speed will take care of itself.
